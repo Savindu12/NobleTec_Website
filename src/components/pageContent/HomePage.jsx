@@ -8,6 +8,7 @@ import Home from '../home/homes/Home'
 import TestHero from '../home/homes/TestHero'
 import Database from '../home/TechnologyPage/Database'
 import Title from "../home/CarrierPage/Titile";
+import Card from '../home/Branding/Card'
 
 
 const HomePage = () => {

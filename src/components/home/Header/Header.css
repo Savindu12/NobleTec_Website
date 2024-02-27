@@ -116,6 +116,7 @@ a {
     .mobile-menu-icon {
         position: absolute;
         display: block;
-        right: 20px;
+        
+        right: 50px;
      }  
 }

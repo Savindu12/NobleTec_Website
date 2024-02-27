@@ -14,6 +14,7 @@ import Frontend from '../home/TechnologyPage/Frontend'
 import Partners from '../home/TechnologyPage/Partners'
 import Technical from '../home/TechnologyPage/Technical'
 import Test from '../home/homes/Test'
+import Product from '../home/ProductPage/Product'
 
 const ProductPage = () => {
   return (
@@ -24,10 +25,9 @@ const ProductPage = () => {
       <Technical/>
       <ProductAbout/>
       <PollApp/>
-      <PollAppTech/>
       <BillBook/>
-      <BillBookTech/>
       <MedBook/>
+
       {/*<Text/>*/}
    </>
   )

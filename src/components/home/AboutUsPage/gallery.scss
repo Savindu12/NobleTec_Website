@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+.gallary-container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height:300px;
+  gap: 30px;
+  animation: marquee 10s linear infinite; /* Apply the marquee animation */
+
+
+   div {
+    flex: 0 0 300px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #2229db;
+    position: relative;
+    overflow: hidden;
+
+    &:nth-of-type(1) {
+      background: url("../../../assets/about/company1.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(2) {
+      background: url("../../../assets/about/company2.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(3) {
+      background: url("../../../assets/about/company3.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(4) {
+      background: url("../../../assets/about/company4.jpg")
+        no-repeat 50% / cover;
+    }
+
+    .content {
+      font-size: 1.5rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      opacity: 0;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-end;
+    
+      transform: translatey(100%);
+      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+      visibility: hidden;
+
+      span {
+        display: block;
+        margin-top: 5px;
+        font-size: 1.2rem;
+      }
+    }
+
+    &:hover {
+      flex: 0 0 320px;
+      box-shadow: 1px 3px 15px #e99921;
+      transform: translatey(-30px);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+
+    .gallery-container {
+      flex-direction: column; /* Stack items vertically */
+      height: auto; /* Adjust height automatically based on content */
+      overflow-x: hidden; /* Hide the horizontal overflow */
+    }
+  
+    .gallery-container div {
+      flex: 0 0 auto; /* Adjust the flex-basis to auto so each item can adjust its height automatically */
+      width: 90%; /* Adjust the width to fit mobile screens, you can set this to 100% if you want it to take full width */
+      margin: 0 auto 10px; /* Center the items horizontally and add some space at the bottom */
+      animation: marquee 10s linear infinite; /* Apply the marquee animation */
+    }
+  
+    /* Define the marquee animation */
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%); /* Start from the right, outside of the screen */
+      }
+      100% {
+        transform: translateX(-100%); /* End at the left, outside of the screen */
+      }
+    }
+  }

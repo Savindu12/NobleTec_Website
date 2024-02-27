@@ -29,7 +29,12 @@ footer {
 
 
 @media (max-width:786px) {
+
     .footer-menu {
+        display: none;
+    }
+
+    .footer_content {
         display: none;
     }
 }

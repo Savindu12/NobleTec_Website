@@ -17,7 +17,7 @@ const Service = () => {
   return (
 
     <div className="App rounded-b-lg">
-    <div className=" text-white object-center bg-center  " style={backgroundImageStyle}>
+    <div className=" text-white object-center bg-center " style={backgroundImageStyle}>
       <div className="bg-gradient-to-b from-gray-900 px-40 py-10  rounded-b-lg">
         <div className=" max-w-8xl h-full grid grid-cols-1 gap-20 rounded-b-lg">
         

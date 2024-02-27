@@ -9,8 +9,8 @@ const backgroundImageStyle = {
 const Technical = () => {
   return (
     <section className="dark:bg-gray-200 dark:text-black">
-	<div data-aos="fade-up" className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8 ">
-		<h2  className="text-4xl font-bold mt-10 mb-10 font-serif">We Are Currently <span class="text-amber-500">Working With</span> </h2>
+	<div data-aos="fade-right" className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8 ">
+		<h2  className="text-4xl font-bold mt-10 mb-10 font-serif font-normal leading-relaxed tracking-widest">We Are Currently <span class="text-amber-500">Working With</span> </h2>
 		<div className="flex flex-wrap justify-center lg:justify-between pb-10">
 			
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 95.07" aria-label="Angular"  className="w-14 h-14 mx-10 my-6 fill-current md:mx-12 lg:m-0 dark:text-gray-400 hover:scale-110 duration-300 ">

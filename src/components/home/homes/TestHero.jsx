@@ -30,9 +30,9 @@ const TestHero = () => {
       
       <div className=" mx-auto relative font-['Maven Pro'] font-normal leading-loose tracking-widest ">
           <div data-aos="fade-up" className='px-4 py-10'>
-              <h2 className="text-6xl text-amber-500 uppercase text-center ">Why Choose Us</h2>
+              <h2 className="text-4xl text-amber-500 uppercase text-center ">Why Choose Us</h2>
               {/* <h3 className='text-3xl font-bold py-6 text-center'>Sparking Innovation, One Sprint At a Time</h3> */}
-              <p className='px-30 py-10  text-3xl text-black text-center font-normal leading-relaxed tracking-widest'>Every workplace is different. We have our unique products, services, values, and innovative ideas to change your business in a short period of time. Our Expertise and Experiences, Quality deliverables, Innovative digital solutions, and Responsiveness are unbeatable.</p>
+              <p className='px-30 py-10 text-xl text-black text-center font-normal leading-relaxed tracking-widest'>Every workplace is different. We have our unique products, services, values, and innovative ideas to change your business in a short period of time. Our Expertise and Experiences, Quality deliverables, Innovative digital solutions, and Responsiveness are unbeatable.</p>
           </div>
 
       <div data-aos="fade-up" className="grid gap-6 row-gap-5 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
